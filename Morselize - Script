@@ -1,0 +1,25 @@
+// Morselize JavaScript
+
+
+// Add-to-plan button interaction
+const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+
+addToCartButtons.forEach(button => {
+button.addEventListener('click', () => {
+alert('Meal added to your plan!');
+});
+});
+
+
+// Contact form submission
+const contactForm = document.getElementById('contactForm');
+
+
+if (contactForm) {
+contactForm.addEventListener('submit', (e) => {
+e.preventDefault();
+alert('Thank you for contacting Morselize! We will get back to you soon.');
+contactForm.reset();
+});
+}
