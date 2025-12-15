@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morselize | Skills</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Morselize</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="skills.html">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="media.html">Media</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="bg-light text-center py-5">
+    <div class="container">
+      <h1 class="fw-bold">Our Culinary Skills</h1>
+      <p class="lead">Each skill is crafted like a recipe — intentional, balanced, and flavorful.</p>
+    </div>
+  </header>
+
+  <!-- Skills Section -->
+  <main class="container py-5">
+    <div class="row g-4">
+
+      <!-- Skill Card -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/comfort.jpg" class="card-img-top" alt="Comfort food meal">
+          <div class="card-body">
+            <h5 class="card-title">Comfort Food</h5>
+            <p class="card-text">Hearty, familiar meals designed to feel like home.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/tropical.jpg" class="card-img-top" alt="Tropical inspired meal">
+          <div class="card-body">
+            <h5 class="card-title">Tropical Flavors</h5>
+            <p class="card-text">Bright island flavors paired with fresh ingredients.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/onepan.jpg" class="card-img-top" alt="One pan meal">
+          <div class="card-body">
+            <h5 class="card-title">One-Pan Meals</h5>
+            <p class="card-text">Efficient cooking with minimal cleanup and maximum flavor.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/pasta.jpg" class="card-img-top" alt="Pasta dish">
+          <div class="card-body">
+            <h5 class="card-title">Pasta Perfection</h5>
+            <p class="card-text">Expertly balanced sauces and perfectly cooked pasta.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/salad.jpg" class="card-img-top" alt="Fresh salad">
+          <div class="card-body">
+            <h5 class="card-title">Fresh Salads</h5>
+            <p class="card-text">Nutritious, vibrant salads with optional protein add-ons.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/sauce.jpg" class="card-img-top" alt="Homemade sauce">
+          <div class="card-body">
+            <h5 class="card-title">Homemade Sauces</h5>
+            <p class="card-text">From scratch sauces that elevate every meal.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 Morselize. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
